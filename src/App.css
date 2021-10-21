@@ -36,7 +36,7 @@ body{
   line-height: 2;
    padding: 15px;
    width: 20em;
-   height: 18em;
+   height: auto;
    border: 2px solid aquamarine;
    margin: auto;
    border-radius: 5px;
@@ -48,6 +48,19 @@ body{
 .city{
   text-align: center;
   font-size: 2em;
+}
+.type-weather{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.wt{
+  
+  color: #7a7777;
+  font-size: 1em;
+}
+.type-weather span{
+  font-size: 1.3em;
+  font-style: italic;
 }
 .temps{
   display: flex;
